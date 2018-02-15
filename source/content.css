@@ -574,6 +574,17 @@ div.inline-comment-form .form-actions,
 	float: right;
 }
 
+/* ...in previewable comment forms */
+.previewable-comment-form .d-flex .flex-auto {
+	display: none;
+}
+.previewable-comment-form .d-flex .form-actions {
+	flex: 1;
+}
+.previewable-comment-form .d-flex .form-actions .btn[type="reset"] {
+	float: left !important;
+}
+
 /* Decrease the size of the search box to fit 'Yours' menu item */
 .subnav-search-input[aria-label='Search all issues'] {
 	width: 420px;
